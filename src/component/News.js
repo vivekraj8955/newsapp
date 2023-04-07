@@ -21,7 +21,7 @@ export default class News extends Component {
     let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=bc9ebf342e734053a2a09ba08ab679e5&pageSize=18&page=${
       this.state.page + 1
     }`;
-    let data = await fetch(url);
+    let data = await fetch(url); 
     let pdata = await data.json();
     this.setState({
       page: this.state.page + 1,
