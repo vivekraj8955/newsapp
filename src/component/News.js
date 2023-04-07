@@ -62,7 +62,7 @@ export default class News extends Component {
     let pdata = await data.json();
     this.setState({
       articles: pdata.articles,
-    });
+    }); 
   };
   render() {
     return (
