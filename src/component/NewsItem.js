@@ -15,7 +15,7 @@ export default class NewsItem extends Component {
             </p>
             <a
               href={newsUrl} target="_blank"
-              className="btn  btn-primary d-flex justify-content-center"
+              className="btn  btn-dark d-flex justify-content-center"
             >
               {"Read More"}
             </a>
